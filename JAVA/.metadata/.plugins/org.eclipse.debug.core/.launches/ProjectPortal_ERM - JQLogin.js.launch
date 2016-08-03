@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.wst.jsdt.debug.rhino.ui.launch.config.type">
+<stringAttribute key="ecmaversion" value="170"/>
+<booleanAttribute key="logexceptions" value="true"/>
+<intAttribute key="optlevel" value="-1"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ProjectPortal_ERM/JQuerys/JQLogin.js"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="script" value="/ProjectPortal_ERM/JQuerys/JQLogin.js"/>
+<booleanAttribute key="strictmode" value="false"/>
+</launchConfiguration>

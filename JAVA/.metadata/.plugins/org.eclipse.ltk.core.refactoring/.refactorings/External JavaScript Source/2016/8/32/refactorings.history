@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;JQuerys&apos; to &apos;External JavaScript Source&apos;" description="Move &apos;JQuerys&apos; to &apos;External JavaScript Source&apos;" destination="/External JavaScript Source" element1="/ProjectPortal_ERM/JQuerys" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1470246570325" updateReferences="true"/>
+</session>

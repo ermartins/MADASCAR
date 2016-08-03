@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.wst.jsdt.debug.core.launchConfigurationType">
+<mapAttribute key="argument_map">
+<mapEntry key="console" value="true"/>
+<mapEntry key="host" value="localhost"/>
+<mapEntry key="port" value="5000"/>
+<mapEntry key="timeout" value="30000"/>
+</mapAttribute>
+<stringAttribute key="connector_id" value="crossfire.remote.listen.connector"/>
+</launchConfiguration>
