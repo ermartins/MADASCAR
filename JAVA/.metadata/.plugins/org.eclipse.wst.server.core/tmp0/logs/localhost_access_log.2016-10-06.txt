@@ -1,0 +1,8 @@
+127.0.0.1 - - [06/Oct/2016:14:44:26 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [06/Oct/2016:14:44:53 -0300] "GET /ProjectPortal_ERM/ HTTP/1.1" 200 428
+0:0:0:0:0:0:0:1 - - [06/Oct/2016:14:44:53 -0300] "GET /ProjectPortal_ERM/jquerys/JQLogin.js HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [06/Oct/2016:14:44:53 -0300] "GET /ProjectPortal_ERM/jquerys/jquery-3.1.0.min.js HTTP/1.1" 200 86355
+0:0:0:0:0:0:0:1 - - [06/Oct/2016:14:45:41 -0300] "GET /ProjectPortal_ERM/ HTTP/1.1" 200 428
+0:0:0:0:0:0:0:1 - - [06/Oct/2016:14:45:41 -0300] "GET /ProjectPortal_ERM/jquerys/jquery-3.1.0.min.js HTTP/1.1" 200 86355
+0:0:0:0:0:0:0:1 - - [06/Oct/2016:14:45:41 -0300] "GET /ProjectPortal_ERM/jquerys/JQLogin.js HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [06/Oct/2016:14:45:48 -0300] "GET /favicon.ico HTTP/1.1" 404 1016

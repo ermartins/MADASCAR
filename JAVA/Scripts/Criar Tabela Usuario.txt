@@ -1,0 +1,10 @@
+CREATE TABLE `dbportalerm`.`usuario` (
+  `idUsuario` INT NOT NULL AUTO_INCREMENT,
+  `Nome` VARCHAR(100) NULL,
+  `idEndereco` INT NULL,
+  `idTelefone` INT NULL,
+  `Apelido` VARCHAR(20) NULL,
+  `usuariocol` VARCHAR(45) NULL,
+  PRIMARY KEY (`idUsuario`))
+ENGINE = InnoDB
+COMMENT = 'Tabela de usuario';
