@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+.cl_Height20
+{
+	height: 20px;
+}
+
+.cl_Border7
+{
+	border: 7px;
+}
