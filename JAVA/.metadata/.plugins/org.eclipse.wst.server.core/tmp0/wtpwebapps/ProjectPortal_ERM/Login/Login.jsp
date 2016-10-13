@@ -14,33 +14,35 @@
 </head>
 <body>
 	<fmt:setLocale value="en" />
-	<div class="cl_Border cl_Width510">
-		<div class="cl_Border cl_Margin7 cl_Height40"
-			style="float: left; width: 200px;">
-			<div class="cl_Border cl_Height20">
-				<label id="lblUsuario"><fmt:message key="recurso.lblUsuario" /></label>
+	<div class="cl_Login cl_Border cl_Width210">
+		<form method="post" action="">
+			<div class="cl_Border cl_Margin7 cl_Height40"
+				style="float: left; width: 200px;">
+				<div class="cl_Border cl_Height20">
+					<label id="lblUsuario"><fmt:message
+							key="recurso.lblUsuario" /></label>
+				</div>
+				<div class="cl_Border">
+					<input class="cl_width180" type="text" name="txtUsuario">
+				</div>
 			</div>
-			<div class="cl_Border">
-				<input type="text" name="txtUsuario">
+			<div class="cl_Border cl_Margin7 cl_Height40"
+				style="float: left; width: 200px;">
+				<div class="cl_Border cl_Height20">
+					<label id="lblSenha"><fmt:message key="recurso.lblSenha" /></label>
+				</div>
+				<div class="cl_Border">
+					<input class="cl_width180" type="password" name="txtSenha">
+				</div>
 			</div>
-		</div>
-		<div class="cl_Border cl_Margin7 cl_Height40"
-			style="float: left; width: 200px; ">
-			<div class="cl_Border cl_Height20" >
-				<label id="lblSenha"><fmt:message key="recurso.lblSenha" /></label>
+			<div class="cl_Border cl_Margin7 cl_Height40"
+				style="float: left; width: 60px;">
+				<div class="cl_CampoVazio cl_Border cl_Height20"></div>
+				<div class="cl_Border">
+					<input type="submit" name="btnOk" value="ok" style="width: 55px;">
+				</div>
 			</div>
-			<div class="cl_Border">
-				<input type="password" name="txtSenha">
-			</div>
-		</div>
-		<div class="cl_Border cl_Margin7 cl_Height40"
-			style="float: left; width: 60px;">
-						<div class="cl_Border cl_Height20"> 
-			</div>
-			<div class="cl_Border">
-				<input type="submit" name="btnOk" value="ok" style="width: 55px;">
-			</div>
-		</div>
+		</form>
 	</div>
 </body>
 </html>

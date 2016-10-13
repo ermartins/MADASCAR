@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+.cl_Height20
+{
+	height: 20px;
+}
+
+.cl_Margin7
+{
+	margin: 7px;
+}
+
+.cl_Height40
+{
+	height: 40px;
+}
+
+.cl_Width510
+{
+	width: 510px;
+}
+
+.cl_Radius
+{
+	border-radius: 7px;
+}
+
+/* ========= SMALL DEVICES - SMARTFONES ==========*/
+@media screen and (min-width: 768px)
+{
+	.cl_Login{
+		width: 210px;
+	
+	}
+}
+

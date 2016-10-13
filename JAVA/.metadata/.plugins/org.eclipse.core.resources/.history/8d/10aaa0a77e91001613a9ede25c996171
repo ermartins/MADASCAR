@@ -1,0 +1,14 @@
+$(document).ready(function() {
+
+})
+
+$(window).on('resize', resizeScreen)
+
+function resizeScreen() {
+	var win = $(this);
+	if (win.width() > 768) {
+		$(".cl_Login").css("width", "510px")
+	} else {
+		$(".cl_Login").css("width", "210px")
+	}
+}

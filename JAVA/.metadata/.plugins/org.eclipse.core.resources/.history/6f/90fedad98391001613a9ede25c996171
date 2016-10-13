@@ -1,0 +1,15 @@
+$(document).ready(function() {
+	resizeScreen();
+})
+
+$(window).on('resize', resizeScreen)
+
+function resizeScreen() {
+	var win = $(this);
+	if (win.width() > 660) {
+		$(".cl_Login").css({"width": "510px","visibility":"visible"})
+	} else {
+		$(".cl_Login").css({"width": "210px", "visibility":"hidden"})
+	}
+	$('.cl_Login').css("float", "right");
+}

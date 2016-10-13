@@ -19,7 +19,27 @@
 	width: 510px;
 }
 
+.cl_width180
+{
+	width: 180px;
+}
+
+.cl_Width210
+{
+	width: 210px;
+}
+
 .cl_Radius
 {
 	border-radius: 7px;
 }
+
+/* ========= SMALL DEVICES - SMARTFONES ==========*/
+/*@media screen and (min-width: 768px)
+{
+	.cl_Login{
+		width: 510px;
+	
+	}
+}
+*/
