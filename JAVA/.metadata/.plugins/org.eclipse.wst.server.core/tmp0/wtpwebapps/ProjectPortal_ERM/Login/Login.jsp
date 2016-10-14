@@ -13,7 +13,7 @@
 
 </head>
 <body>
-	<fmt:setLocale value="en" />
+	<fmt:setLocale value="pt" />
 	<div class="cl_Login cl_Border cl_Width210">
 		<form method="post" action="">
 			<div class="cl_Border cl_Margin7 cl_Height40"
