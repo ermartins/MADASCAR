@@ -16,3 +16,7 @@ function resizeScreen() {
 	}
 	$('.cl_Login').css("float", "right");
 }
+
+function BtnLoginOk(){
+	$("label[id*=lblSenha]")
+}
