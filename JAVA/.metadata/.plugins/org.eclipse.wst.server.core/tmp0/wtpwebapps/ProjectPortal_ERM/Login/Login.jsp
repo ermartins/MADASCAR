@@ -18,7 +18,8 @@
 </head>
 <body>
 	<fmt:setLocale value="pt" />
-	<div class="cl_Login cl_Border cl_Width210">
+	<div class="cl_Login cl_Border cl_Width210 cl_Height215">
+	<div id="id_PainelLogin" class="cl_Login cl_Border cl_Width210 cl_Height165">
 		<form method="post" action="">
 			<div class="cl_Border cl_Margin7 cl_Height40"
 				style="float: left; width: 200px;">
@@ -47,6 +48,8 @@
 				</div>
 			</div>
 		</form>
+	</div>
+		<div id="divAba" class="cl_Border"></div>
 	</div>
 </body>
 </html>

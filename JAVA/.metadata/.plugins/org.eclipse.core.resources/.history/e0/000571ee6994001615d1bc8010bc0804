@@ -1,0 +1,24 @@
+$(document).ready(function() {
+	resizeScreen();
+})
+
+$(window).on('resize', resizeScreen)
+
+function resizeScreen() {
+	var win = $(this);
+	var aba = $("#divAba");
+	if (win.width() > 767) {
+		$(".cl_Login").css({"width": "510px"});
+		$(".cl_CampoVazio").css("display","block");
+		aba.css("display","none");
+	} else {
+		$(".cl_Login").css({"width": "210px"})
+		$(".cl_CampoVazio").css("display","none");
+		aba.show();
+	}
+	$('.cl_Login').css("float", "right");
+}
+
+function BtnLoginOk(){
+	$("label[id*=lblSenha]")
+}
