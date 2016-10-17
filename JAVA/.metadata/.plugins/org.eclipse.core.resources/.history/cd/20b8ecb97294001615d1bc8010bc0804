@@ -1,0 +1,38 @@
+$(document).ready(function() {
+	resizeScreen();
+	$("#divAba").click(exibeMenu);
+})
+
+$(window).on('resize', resizeScreen)
+
+function resizeScreen() {
+	var win = $(this);
+	var aba = $("#divAba");
+	var pnlLogin = $("#id_PainelLogin");
+	var pnlLoginfull = $("#id_PainelLogin").parent();
+	
+		if (win.width() > 767) {
+		$(".cl_Login").css({"width": "510px"});
+		$(".cl_CampoVazio").css("display","block");
+		aba.css("display","none");
+		pnlLogin.show().addClass("cl_Height60").removeClass("cl_Height165");
+		/*pnlLoginfull.addClass("cl_Height215");*/
+	} else {
+		$(".cl_Login").css({"width": "210px"})
+		$(".cl_CampoVazio").css("display","none");
+		aba.show();
+		pnlLogin.css("display","none").removeClass("cl_Height60").addClass("cl_Height165");
+		/*pnlLoginfull.removeClass("cl_Height215");*/
+	}
+	$('.cl_Login').css("float", "right");
+}
+
+function BtnLoginOk(){
+	$("label[id*=lblSenha]")
+}
+
+function exibeMenu()
+{
+	var aba = $("#divAba");
+	aba.toggle("slow");
+}
