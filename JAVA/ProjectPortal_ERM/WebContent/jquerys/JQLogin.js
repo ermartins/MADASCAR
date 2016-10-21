@@ -21,6 +21,7 @@ function resizeScreen() {
 			aba.css("display", "none");
 			pnlLogin.addClass("cl_Height60").removeClass("cl_Height165");
 			pnlLogin.removeClass("displayNone");
+			pnlLogin.removeClass("cl_Width195");
 			/* pnlLoginfull.addClass("cl_Height215"); */
 		} else {
 			$(".cl_Login").css({
@@ -30,6 +31,7 @@ function resizeScreen() {
 			aba.show();
 			pnlLogin.removeClass("cl_Height60").addClass("cl_Height165");
 			pnlLogin.addClass("displayNone");
+			pnlLogin.addClass("cl_Width195");
 			/* pnlLoginfull.removeClass("cl_Height215"); */
 
 		}

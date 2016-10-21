@@ -18,39 +18,42 @@
 </head>
 <body>
 	<fmt:setLocale value="pt" />
-	<div class="cl_Login cl_Border cl_Width210 /*cl_Height215*/">
+	<div id="id_PnlLogin_Off" class="cl_Login cl_Width195">
 		<div id="id_PainelLogin"
-			class="cl_Login cl_Border cl_Width210 cl_Height165">
-			<form method="post" action="">
-				<div class="cl_Border cl_Margin7 cl_Height40"
+			class="cl_Login cl_Width195 cl_Height165">
+			<form method="post" action="Login">
+				<div class=" cl_Margin7 cl_Height40"
 					style="float: left; width: 200px;">
-					<div class="cl_Border cl_Height20">
+					<div class=" cl_Height20 cl_FontBranca">
 						<label id="lblUsuario"><fmt:message
 								key="recurso.lblUsuario" /></label>
 					</div>
-					<div class="cl_Border">
+					<div class=" cl_Width180">
 						<input class="cl_width180" type="text" name="txtUsuario">
 					</div>
 				</div>
-				<div class="cl_Border cl_Margin7 cl_Height40"
+				<div class=" cl_Margin7 cl_Height40 cl_FontBranca"
 					style="float: left; width: 200px;">
-					<div class="cl_Border cl_Height20">
+					<div class=" cl_Height20">
 						<label id="lblSenha"><fmt:message key="recurso.lblSenha" /></label>
 					</div>
-					<div class="cl_Border">
+					<div>
 						<input class="cl_width180" type="password" name="txtSenha">
 					</div>
 				</div>
-				<div class="cl_Border cl_Margin7 cl_Height40"
+				<div class=" cl_Margin7 cl_Height40"
 					style="float: left; width: 60px;">
 					<div class="cl_CampoVazio cl_Border cl_Height20"></div>
-					<div class="cl_Border">
+					<div >
 						<input type="submit" name="btnOk" value="ok" style="width: 55px;">
 					</div>
 				</div>
 			</form>
 		</div>
 		<div class="divAba cl_Border"></div>
+	</div>
+	<div id="id_PnlLogin_On" class="cl_Border cl_width210 cl_Height60 cl_FloatRight cl_TextAlingRight">
+	<div>Ola Edvaldo!</div>
 	</div>
 </body>
 </html>

@@ -1,7 +1,0 @@
-$(document).ready(function(){
-	
-})
-
-$(window).on('resize',function(){
-	window.alert('teste');
-})

@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [21/Oct/2016:13:32:04 -0200] "GET /ProjectPortal_ERM/ HTTP/1.1" 200 2374
+0:0:0:0:0:0:0:1 - - [21/Oct/2016:13:32:04 -0200] "GET /ProjectPortal_ERM/jquerys/JQLogin.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2016:13:32:05 -0200] "GET /ProjectPortal_ERM/Styles/ResetStyles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2016:13:32:05 -0200] "GET /ProjectPortal_ERM/Styles/IncludeBorder.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2016:13:32:05 -0200] "GET /ProjectPortal_ERM/Styles/Login.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2016:13:32:05 -0200] "GET /ProjectPortal_ERM/jquerys/Criptografia.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Oct/2016:13:32:05 -0200] "GET /favicon.ico HTTP/1.1" 404 1016

@@ -1,0 +1,5 @@
+package br.inf.portalerm.connections.utils;
+
+public class ConnectionsUtils {
+
+}
