@@ -1,0 +1,5 @@
+package br.inf.portalerm.Models;
+
+public class Usuario {
+
+}
