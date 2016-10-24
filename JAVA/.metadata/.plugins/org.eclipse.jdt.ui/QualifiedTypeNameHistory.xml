@@ -6,4 +6,6 @@
 <fullyQualifiedTypeName name="br.inf.portalerm.Models.Usuario"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="br.inf.portalerm.connections.utils.ConnectionsUtils"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>
