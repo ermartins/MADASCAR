@@ -8,7 +8,7 @@ public class ConnectionsUtils {
 	public static Connection criarConexao() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException
 	{
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
-		String stringConexao = "jdbc:mysql://localhost:56081/dbportalerm?user=root&password=ed4783*1";
+		String stringConexao = "jdbc:mysql://localhost:3306/dbportalerm?user=root&password=ed4783*1";
 		Connection conn = DriverManager.getConnection(stringConexao);
 		return conn;
 	}

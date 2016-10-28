@@ -1,0 +1,71 @@
+$(document).ready(function() {
+	resizeScreen();
+	$(".divAba").on('click', divAbaClick);
+	verificaUsuario();
+})
+
+$(window).on('resize', resizeScreen)
+var acaoUsuario = false;
+
+function resizeScreen() {
+	if (!acaoUsuario) {
+		var win = $(this);
+		var aba = $(".divAba");
+		var pnlLogin = $("#id_PainelLogin");
+		/* var pnlLoginfull = $("#id_PainelLogin").parent(); */
+
+		if (win.width() > 767) {
+			$(".cl_Login").css({
+				"width" : "510px"
+			});
+			$(".cl_CampoVazio").css("display", "block");
+			aba.css("display", "none");
+			pnlLogin.addClass("cl_Height60").removeClass("cl_Height165");
+			pnlLogin.removeClass("displayNone");
+			pnlLogin.removeClass("cl_Width195");
+			/* pnlLoginfull.addClass("cl_Height215"); */
+		} else {
+			$(".cl_Login").css({
+				"width" : "210px"
+			})
+			$(".cl_CampoVazio").css("display", "none");
+			aba.show();
+			pnlLogin.removeClass("cl_Height60").addClass("cl_Height165");
+			pnlLogin.addClass("displayNone");
+			pnlLogin.addClass("cl_Width195");
+			/* pnlLoginfull.removeClass("cl_Height215"); */
+
+		}
+		// exibeMenu();
+		$('.cl_Login').css("float", "right");
+	}
+}
+
+function BtnLoginOk() {
+	$("label[id*=lblSenha]")
+}
+
+function exibeMenu() {
+	var pnlLogin = $("#id_PainelLogin");
+	if (pnlLogin.hasClass("displayNone")) {
+		pnlLogin.removeClass("displayNone", "slow");
+	} else {
+		pnlLogin.addClass("displayNone", "slow");
+
+	}
+
+}
+function divAbaClick() {
+	if (!acaoUsuario) {
+		acaoUsuario = true;
+		exibeMenu();
+	}else{
+		acaoUsuario = false;
+	}
+}
+function verificaUsuario(){
+	var context = document.body.context ;
+	//alert(context);
+	var usuario = context.getAttribute("usuarioLogado");
+	//alert(usuario)
+}

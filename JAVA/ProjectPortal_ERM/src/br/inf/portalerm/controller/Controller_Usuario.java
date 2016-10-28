@@ -2,6 +2,7 @@ package br.inf.portalerm.controller;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 
@@ -17,6 +18,15 @@ public class Controller_Usuario {
 		PreparedStatement statement = conn.prepareStatement("select * FROM dbportalerm.usuario AS U inner join senha AS S ON U.senha_idsenha = S.idsenha WHERE U.nome = ? && S.senha = ?");
 				statement.setString(1, nomeUsuario);
 				statement.setString(2, senha);
+				
+				ResultSet rs =statement.executeQuery();
+				
+				if(rs.next()){
+					usuario = new Usuario();
+					usuario.setId(rs.getInt("idusuario"));
+					usuario.setNome(rs.getString("nome"));
+					usuario.setSenha(rs.getString("senha"));
+				}
 		ConnectionsUtils.fecharConexao(conn);
 		return usuario;
 	}
