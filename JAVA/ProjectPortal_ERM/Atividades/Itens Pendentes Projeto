@@ -1,4 +1,13 @@
+UsuarioDao == Controller_Usuario
+
 Todos as ações feitas no MySQL deve ser gerados scripts 
 e incluidos no gitHub
 	Criar Telinha de Menu 				<-Em execução
 	Fazer Base de Dados para tela de Menu
+
+	
+	    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>

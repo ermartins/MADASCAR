@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	resizeScreen();
 	$(".divAba").on('click', divAbaClick);
+	verificaUsuario();
 })
 
 $(window).on('resize', resizeScreen)
@@ -58,7 +59,20 @@ function divAbaClick() {
 	if (!acaoUsuario) {
 		acaoUsuario = true;
 		exibeMenu();
-	}else{
+	} else {
 		acaoUsuario = false;
 	}
+}
+function verificaUsuario() {
+	var userOn = $("span[id=booUserOn]").text();
+	var AbaLogin = $("#id_PnlLogin_Off");
+
+	if ((userOn != "null") && (userOn != "")) {
+		AbaLogin.css("display", "none");
+	} else {
+		AbaLogin.css("display", "block");
+	}
+	// alert(context);
+	var usuario = context.getAttribute("usuarioLogado");
+	// alert(usuario)
 }

@@ -10,7 +10,16 @@ public void setId(int id) {
 	this.id = id;
 }
 public String getNome() {
-	return nome;
+	String result;
+	if(nome == null)
+	{
+		result = "EdyTeste";
+	}
+	else
+	{
+		result = nome;
+	}
+	return result;
 }
 public void setNome(String nome) {
 	this.nome = nome;

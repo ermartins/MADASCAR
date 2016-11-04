@@ -5,12 +5,11 @@
     <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
     <param-value>messages</param-value>
   </context-param>
+  <context-param>
+    <param-name>UrlRaiz</param-name>
+    <param-value>/ProjectPortal_ERM/</param-value>
+  </context-param>
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
