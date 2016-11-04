@@ -1,9 +1,8 @@
 <%@page import="br.inf.portalerm.Models.Usuario"%>
 <%@page import="java.awt.print.Printable"%>
 <%@page import="sun.org.mozilla.javascript.internal.ast.VariableDeclaration"%>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<!--<%@page import="br.inf.portalerm.Models.Usuario" %>-->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -13,7 +12,6 @@
 
 <link href="Styles/IncludeBorder.css" rel="stylesheet" />
 <link href="Styles/Login.css" rel="stylesheet" />
-
 <script type="text/javascript" src="jquerys/Criptografia.js"></script>
 <script type="text/javascript" src="jquerys/JQLogin.js"></script>
 
@@ -58,7 +56,7 @@
 		<div class="divAba cl_Border"></div>
 	</div>
 	<div id="id_PnlLogin_On" class="cl_Border cl_width210 cl_Height60 cl_FloatRight cl_TextAlingRight">
-	<div>Ola <span id="booUserOn" style="display: none;" ><%= Usuario.class.cast(config.getServletContext().getAttribute("usuarioLogado")).getNome() %></span>! </div>
+
 	</div>
 </body>
 </html>

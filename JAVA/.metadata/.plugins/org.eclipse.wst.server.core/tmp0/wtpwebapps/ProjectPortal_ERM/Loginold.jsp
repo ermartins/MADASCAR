@@ -12,11 +12,11 @@
 		<form action="/ProjectPortal_ERM/Login" method="post">
 			<div style="font-weight: bold;">Nome de Usuario</div>
 			<div>
-				<input type="text" name="nomeUsuario">
+				<input type="text" name="txtUsuario">
 			</div>
 			<div style="font-weight: bold;">Senha</div>
 			<div>
-				<input type="password" name="senha">
+				<input type="password" name="txtSenha">
 			</div>
 			<div>
 				<input type="submit" value="Fazer Login..." />

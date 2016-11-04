@@ -27,4 +27,6 @@
 		<item value="org.eclipse.wst.xsl.ui.XSLEditor" key="EditorSelectionDialog.STORE_ID_DESCR"/>
 		<item value="false" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>

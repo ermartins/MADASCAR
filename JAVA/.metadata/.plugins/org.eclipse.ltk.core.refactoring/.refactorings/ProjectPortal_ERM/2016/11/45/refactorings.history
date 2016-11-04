@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProjectPortal_ERM/WebContent/index.jsp&apos; to &apos;indexold.jsp&apos;" description="Rename resource &apos;index.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/index.jsp" name="indexold.jsp" stamp="1478001670822" updateReferences="true"/>
+</session>

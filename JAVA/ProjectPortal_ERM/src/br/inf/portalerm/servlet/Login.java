@@ -51,7 +51,7 @@ public class Login extends HttpServlet {
 			if(usuario != null)
 			{
 				contexto.setAttribute("usuarioLogado", usuario);
-				response.sendRedirect("default.jsp");
+				response.sendRedirect("welcome.jsp");
 				
 			}
 			else
